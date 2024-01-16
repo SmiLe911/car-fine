@@ -2,13 +2,13 @@ package bot;
 
 public interface BotUtils {
     // DATABASE CONNECTION
-    String URL = "jdbc:postgresql://localhost:5432/Fine";
-    String USER = "postgres";
-    String PASSWORD = "smile181";
+    String URL = "db_url";
+    String USER = "db_user";
+    String PASSWORD = "db_password";
 
     // BOT
-    String USERNAME = "@b2_smile_bot";
-    String TOKEN = "5030642911:AAGbLvs899teKPu1u4ztf9GBPAUdHB1Rz4Y";
+    String USERNAME = "bot_username";
+    String TOKEN = "bot_token";
 
     // BOT COMMANDS
     String START = "/start";
